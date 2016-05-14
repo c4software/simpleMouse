@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CEB3B751CE791BB00BE22A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB3B741CE791BB00BE22A9 /* AppDelegate.swift */; };
+		3CEB3B771CE791BB00BE22A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CEB3B761CE791BB00BE22A9 /* Assets.xcassets */; };
+		3CEB3B7A1CE791BB00BE22A9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CEB3B781CE791BB00BE22A9 /* MainMenu.xib */; };
+		3CEB3B851CE791BB00BE22A9 /* simplyBackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB3B841CE791BB00BE22A9 /* simplyBackTests.swift */; };
+		3CEB3B901CE791BB00BE22A9 /* simplyBackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB3B8F1CE791BB00BE22A9 /* simplyBackUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CEB3B811CE791BB00BE22A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CEB3B691CE791BB00BE22A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CEB3B701CE791BB00BE22A9;
+			remoteInfo = simplyBack;
+		};
+		3CEB3B8C1CE791BB00BE22A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CEB3B691CE791BB00BE22A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CEB3B701CE791BB00BE22A9;
+			remoteInfo = simplyBack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CEB3B711CE791BB00BE22A9 /* simplyBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simplyBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CEB3B741CE791BB00BE22A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CEB3B761CE791BB00BE22A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CEB3B791CE791BB00BE22A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3CEB3B7B1CE791BB00BE22A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CEB3B801CE791BB00BE22A9 /* simplyBackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simplyBackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CEB3B841CE791BB00BE22A9 /* simplyBackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simplyBackTests.swift; sourceTree = "<group>"; };
+		3CEB3B861CE791BB00BE22A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CEB3B8B1CE791BB00BE22A9 /* simplyBackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simplyBackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CEB3B8F1CE791BB00BE22A9 /* simplyBackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simplyBackUITests.swift; sourceTree = "<group>"; };
+		3CEB3B911CE791BB00BE22A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CEB3B6E1CE791BB00BE22A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEB3B7D1CE791BB00BE22A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEB3B881CE791BB00BE22A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CEB3B681CE791BB00BE22A9 = {
+			isa = PBXGroup;
+			children = (
+				3CEB3B731CE791BB00BE22A9 /* simplyBack */,
+				3CEB3B831CE791BB00BE22A9 /* simplyBackTests */,
+				3CEB3B8E1CE791BB00BE22A9 /* simplyBackUITests */,
+				3CEB3B721CE791BB00BE22A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CEB3B721CE791BB00BE22A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB3B711CE791BB00BE22A9 /* simplyBack.app */,
+				3CEB3B801CE791BB00BE22A9 /* simplyBackTests.xctest */,
+				3CEB3B8B1CE791BB00BE22A9 /* simplyBackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CEB3B731CE791BB00BE22A9 /* simplyBack */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB3B741CE791BB00BE22A9 /* AppDelegate.swift */,
+				3CEB3B761CE791BB00BE22A9 /* Assets.xcassets */,
+				3CEB3B781CE791BB00BE22A9 /* MainMenu.xib */,
+				3CEB3B7B1CE791BB00BE22A9 /* Info.plist */,
+			);
+			path = simplyBack;
+			sourceTree = "<group>";
+		};
+		3CEB3B831CE791BB00BE22A9 /* simplyBackTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB3B841CE791BB00BE22A9 /* simplyBackTests.swift */,
+				3CEB3B861CE791BB00BE22A9 /* Info.plist */,
+			);
+			path = simplyBackTests;
+			sourceTree = "<group>";
+		};
+		3CEB3B8E1CE791BB00BE22A9 /* simplyBackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB3B8F1CE791BB00BE22A9 /* simplyBackUITests.swift */,
+				3CEB3B911CE791BB00BE22A9 /* Info.plist */,
+			);
+			path = simplyBackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CEB3B701CE791BB00BE22A9 /* simplyBack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CEB3B941CE791BB00BE22A9 /* Build configuration list for PBXNativeTarget "simplyBack" */;
+			buildPhases = (
+				3CEB3B6D1CE791BB00BE22A9 /* Sources */,
+				3CEB3B6E1CE791BB00BE22A9 /* Frameworks */,
+				3CEB3B6F1CE791BB00BE22A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simplyBack;
+			productName = simplyBack;
+			productReference = 3CEB3B711CE791BB00BE22A9 /* simplyBack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CEB3B7F1CE791BB00BE22A9 /* simplyBackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CEB3B971CE791BB00BE22A9 /* Build configuration list for PBXNativeTarget "simplyBackTests" */;
+			buildPhases = (
+				3CEB3B7C1CE791BB00BE22A9 /* Sources */,
+				3CEB3B7D1CE791BB00BE22A9 /* Frameworks */,
+				3CEB3B7E1CE791BB00BE22A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CEB3B821CE791BB00BE22A9 /* PBXTargetDependency */,
+			);
+			name = simplyBackTests;
+			productName = simplyBackTests;
+			productReference = 3CEB3B801CE791BB00BE22A9 /* simplyBackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CEB3B8A1CE791BB00BE22A9 /* simplyBackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CEB3B9A1CE791BB00BE22A9 /* Build configuration list for PBXNativeTarget "simplyBackUITests" */;
+			buildPhases = (
+				3CEB3B871CE791BB00BE22A9 /* Sources */,
+				3CEB3B881CE791BB00BE22A9 /* Frameworks */,
+				3CEB3B891CE791BB00BE22A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CEB3B8D1CE791BB00BE22A9 /* PBXTargetDependency */,
+			);
+			name = simplyBackUITests;
+			productName = simplyBackUITests;
+			productReference = 3CEB3B8B1CE791BB00BE22A9 /* simplyBackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CEB3B691CE791BB00BE22A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Valentin Brosseau";
+				TargetAttributes = {
+					3CEB3B701CE791BB00BE22A9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3CEB3B7F1CE791BB00BE22A9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3CEB3B701CE791BB00BE22A9;
+					};
+					3CEB3B8A1CE791BB00BE22A9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3CEB3B701CE791BB00BE22A9;
+					};
+				};
+			};
+			buildConfigurationList = 3CEB3B6C1CE791BB00BE22A9 /* Build configuration list for PBXProject "simplyBack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CEB3B681CE791BB00BE22A9;
+			productRefGroup = 3CEB3B721CE791BB00BE22A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CEB3B701CE791BB00BE22A9 /* simplyBack */,
+				3CEB3B7F1CE791BB00BE22A9 /* simplyBackTests */,
+				3CEB3B8A1CE791BB00BE22A9 /* simplyBackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CEB3B6F1CE791BB00BE22A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CEB3B771CE791BB00BE22A9 /* Assets.xcassets in Resources */,
+				3CEB3B7A1CE791BB00BE22A9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEB3B7E1CE791BB00BE22A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEB3B891CE791BB00BE22A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CEB3B6D1CE791BB00BE22A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CEB3B751CE791BB00BE22A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEB3B7C1CE791BB00BE22A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CEB3B851CE791BB00BE22A9 /* simplyBackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CEB3B871CE791BB00BE22A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CEB3B901CE791BB00BE22A9 /* simplyBackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CEB3B821CE791BB00BE22A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CEB3B701CE791BB00BE22A9 /* simplyBack */;
+			targetProxy = 3CEB3B811CE791BB00BE22A9 /* PBXContainerItemProxy */;
+		};
+		3CEB3B8D1CE791BB00BE22A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CEB3B701CE791BB00BE22A9 /* simplyBack */;
+			targetProxy = 3CEB3B8C1CE791BB00BE22A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CEB3B781CE791BB00BE22A9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CEB3B791CE791BB00BE22A9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CEB3B921CE791BB00BE22A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CEB3B931CE791BB00BE22A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3CEB3B951CE791BB00BE22A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = simplyBack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vbrosseau.simplyBack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CEB3B961CE791BB00BE22A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = simplyBack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vbrosseau.simplyBack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CEB3B981CE791BB00BE22A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = simplyBackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vbrosseau.simplyBackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simplyBack.app/Contents/MacOS/simplyBack";
+			};
+			name = Debug;
+		};
+		3CEB3B991CE791BB00BE22A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = simplyBackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vbrosseau.simplyBackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simplyBack.app/Contents/MacOS/simplyBack";
+			};
+			name = Release;
+		};
+		3CEB3B9B1CE791BB00BE22A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = simplyBackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vbrosseau.simplyBackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = simplyBack;
+			};
+			name = Debug;
+		};
+		3CEB3B9C1CE791BB00BE22A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = simplyBackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vbrosseau.simplyBackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = simplyBack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CEB3B6C1CE791BB00BE22A9 /* Build configuration list for PBXProject "simplyBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEB3B921CE791BB00BE22A9 /* Debug */,
+				3CEB3B931CE791BB00BE22A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CEB3B941CE791BB00BE22A9 /* Build configuration list for PBXNativeTarget "simplyBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEB3B951CE791BB00BE22A9 /* Debug */,
+				3CEB3B961CE791BB00BE22A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CEB3B971CE791BB00BE22A9 /* Build configuration list for PBXNativeTarget "simplyBackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEB3B981CE791BB00BE22A9 /* Debug */,
+				3CEB3B991CE791BB00BE22A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CEB3B9A1CE791BB00BE22A9 /* Build configuration list for PBXNativeTarget "simplyBackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEB3B9B1CE791BB00BE22A9 /* Debug */,
+				3CEB3B9C1CE791BB00BE22A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CEB3B691CE791BB00BE22A9 /* Project object */;
+}
