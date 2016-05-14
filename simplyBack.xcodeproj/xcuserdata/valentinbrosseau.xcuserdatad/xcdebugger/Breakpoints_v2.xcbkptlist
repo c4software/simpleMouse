@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "simplyBack/StatusMenuController.swift"
+            timestampString = "484942613.471632"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "StatusMenuController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "simplyBack.StatusMenuController.statusMenu.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.NSMenu&gt;"
+                  moduleName = "simplyBack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valentinbrosseau/Dropbox/osx/simplyBack/simplyBack/StatusMenuController.swift"
+                  timestampString = "484942763.170468"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "21">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "simplyBack.StatusMenuController.statusMenu.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.NSMenu&gt;"
+                  moduleName = "simplyBack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valentinbrosseau/Dropbox/osx/simplyBack/simplyBack/StatusMenuController.swift"
+                  timestampString = "484942763.170671"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "simplyBack.StatusMenuController.init () -&gt; simplyBack.StatusMenuController"
+                  moduleName = "simplyBack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valentinbrosseau/Dropbox/osx/simplyBack/simplyBack/StatusMenuController.swift"
+                  timestampString = "484942763.170815"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "simplyBack/StatusMenuController.swift"
+            timestampString = "484942685.578399"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "simplyBack/StatusMenuController.swift"
+            timestampString = "484942766.55138"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "StatusMenuController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "simplyBack.StatusMenuController.__deallocating_deinit"
+                  moduleName = "simplyBack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valentinbrosseau/Dropbox/osx/simplyBack/simplyBack/StatusMenuController.swift"
+                  timestampString = "484942766.554447"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "simplyBack.StatusMenuController.init () -&gt; simplyBack.StatusMenuController"
+                  moduleName = "simplyBack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valentinbrosseau/Dropbox/osx/simplyBack/simplyBack/StatusMenuController.swift"
+                  timestampString = "484942766.554634"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "simplyBack/StatusMenuController.swift"
+            timestampString = "484942767.959291"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "StatusMenuController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "simplyBack.StatusMenuController.__deallocating_deinit"
+                  moduleName = "simplyBack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valentinbrosseau/Dropbox/osx/simplyBack/simplyBack/StatusMenuController.swift"
+                  timestampString = "484942767.961813"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "simplyBack.StatusMenuController.init () -&gt; simplyBack.StatusMenuController"
+                  moduleName = "simplyBack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/valentinbrosseau/Dropbox/osx/simplyBack/simplyBack/StatusMenuController.swift"
+                  timestampString = "484942767.96207"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

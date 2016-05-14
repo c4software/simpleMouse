@@ -26,9 +26,10 @@ func monitor(){
     
     NSEvent.addGlobalMonitorForEventsMatchingMask(
         NSEventMask.OtherMouseDownMask, handler: {(event: NSEvent) in
-            print ("")
-            print ("Evenement de souris : ")
-            print(event)
+            //print ("")
+            //print ("Evenement de souris : ")
+            //print(event)
+            
             if(event.buttonNumber == 3){
                 command_left()
             }else if(event.buttonNumber == 4){
