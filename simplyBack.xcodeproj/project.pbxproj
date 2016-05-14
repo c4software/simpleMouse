@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C1B97101CE7BAA400927BF2 /* triggerKeyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1B970F1CE7BAA400927BF2 /* triggerKeyEvent.swift */; };
+		3C1B97121CE7BCE300927BF2 /* monitorMouseEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1B97111CE7BCE300927BF2 /* monitorMouseEvents.swift */; };
+		3CA5DC1B1CE79AE7004C1E39 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA5DC1A1CE79AE7004C1E39 /* StatusMenuController.swift */; };
 		3CEB3B751CE791BB00BE22A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB3B741CE791BB00BE22A9 /* AppDelegate.swift */; };
 		3CEB3B771CE791BB00BE22A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CEB3B761CE791BB00BE22A9 /* Assets.xcassets */; };
 		3CEB3B7A1CE791BB00BE22A9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CEB3B781CE791BB00BE22A9 /* MainMenu.xib */; };
-		3CEB3B851CE791BB00BE22A9 /* simplyBackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB3B841CE791BB00BE22A9 /* simplyBackTests.swift */; };
-		3CEB3B901CE791BB00BE22A9 /* simplyBackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB3B8F1CE791BB00BE22A9 /* simplyBackUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,17 +33,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C1B970F1CE7BAA400927BF2 /* triggerKeyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = triggerKeyEvent.swift; sourceTree = "<group>"; };
+		3C1B97111CE7BCE300927BF2 /* monitorMouseEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = monitorMouseEvents.swift; sourceTree = "<group>"; };
+		3CA5DC1A1CE79AE7004C1E39 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
 		3CEB3B711CE791BB00BE22A9 /* simplyBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simplyBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CEB3B741CE791BB00BE22A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CEB3B761CE791BB00BE22A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CEB3B791CE791BB00BE22A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		3CEB3B7B1CE791BB00BE22A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CEB3B801CE791BB00BE22A9 /* simplyBackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simplyBackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CEB3B841CE791BB00BE22A9 /* simplyBackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simplyBackTests.swift; sourceTree = "<group>"; };
-		3CEB3B861CE791BB00BE22A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CEB3B8B1CE791BB00BE22A9 /* simplyBackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simplyBackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CEB3B8F1CE791BB00BE22A9 /* simplyBackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simplyBackUITests.swift; sourceTree = "<group>"; };
-		3CEB3B911CE791BB00BE22A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				3CEB3B731CE791BB00BE22A9 /* simplyBack */,
-				3CEB3B831CE791BB00BE22A9 /* simplyBackTests */,
-				3CEB3B8E1CE791BB00BE22A9 /* simplyBackUITests */,
 				3CEB3B721CE791BB00BE22A9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,30 +91,15 @@
 		3CEB3B731CE791BB00BE22A9 /* simplyBack */ = {
 			isa = PBXGroup;
 			children = (
+				3C1B970F1CE7BAA400927BF2 /* triggerKeyEvent.swift */,
 				3CEB3B741CE791BB00BE22A9 /* AppDelegate.swift */,
 				3CEB3B761CE791BB00BE22A9 /* Assets.xcassets */,
 				3CEB3B781CE791BB00BE22A9 /* MainMenu.xib */,
 				3CEB3B7B1CE791BB00BE22A9 /* Info.plist */,
+				3CA5DC1A1CE79AE7004C1E39 /* StatusMenuController.swift */,
+				3C1B97111CE7BCE300927BF2 /* monitorMouseEvents.swift */,
 			);
 			path = simplyBack;
-			sourceTree = "<group>";
-		};
-		3CEB3B831CE791BB00BE22A9 /* simplyBackTests */ = {
-			isa = PBXGroup;
-			children = (
-				3CEB3B841CE791BB00BE22A9 /* simplyBackTests.swift */,
-				3CEB3B861CE791BB00BE22A9 /* Info.plist */,
-			);
-			path = simplyBackTests;
-			sourceTree = "<group>";
-		};
-		3CEB3B8E1CE791BB00BE22A9 /* simplyBackUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3CEB3B8F1CE791BB00BE22A9 /* simplyBackUITests.swift */,
-				3CEB3B911CE791BB00BE22A9 /* Info.plist */,
-			);
-			path = simplyBackUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,7 +186,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = 3CEB3B681CE791BB00BE22A9;
@@ -249,6 +231,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C1B97101CE7BAA400927BF2 /* triggerKeyEvent.swift in Sources */,
+				3C1B97121CE7BCE300927BF2 /* monitorMouseEvents.swift in Sources */,
+				3CA5DC1B1CE79AE7004C1E39 /* StatusMenuController.swift in Sources */,
 				3CEB3B751CE791BB00BE22A9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +242,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CEB3B851CE791BB00BE22A9 /* simplyBackTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CEB3B901CE791BB00BE22A9 /* simplyBackUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,7 +368,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = simplyBack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vbrosseau.simplyBack;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vbrosseau.simpleMouseRemap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -397,7 +380,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = simplyBack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vbrosseau.simplyBack;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vbrosseau.simpleMouseRemap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -471,6 +454,7 @@
 				3CEB3B961CE791BB00BE22A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CEB3B971CE791BB00BE22A9 /* Build configuration list for PBXNativeTarget "simplyBackTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +463,7 @@
 				3CEB3B991CE791BB00BE22A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CEB3B9A1CE791BB00BE22A9 /* Build configuration list for PBXNativeTarget "simplyBackUITests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +472,7 @@
 				3CEB3B9C1CE791BB00BE22A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
