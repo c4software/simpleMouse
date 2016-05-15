@@ -6,4 +6,4 @@ Currently in Work In Progess (quick and dirty tool for now)
 
 ## Todo
 
-Make trigger code more generic
+Make trigger code more generic and avoid the orginial propagation ?
