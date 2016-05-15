@@ -8,50 +8,31 @@
 
 import Foundation
 
-func command_space(){
+func press_key(key: UInt16, command: Bool = false){
     let src = CGEventSourceCreate(CGEventSourceStateID.HIDSystemState)
     
-    let spcd = CGEventCreateKeyboardEvent(src, 0x31, true)
-    let spcu = CGEventCreateKeyboardEvent(src, 0x31, false)
+    let pressed  = CGEventCreateKeyboardEvent(src, key, true)
+    let released = CGEventCreateKeyboardEvent(src, key, false)
     
-    CGEventSetFlags(spcd, CGEventFlags.MaskCommand)
-    CGEventSetFlags(spcu, CGEventFlags.MaskCommand)
-    
+    if(command){
+        CGEventSetFlags(pressed, CGEventFlags.MaskCommand)
+        CGEventSetFlags(released, CGEventFlags.MaskCommand)
+    }
     
     let loc = CGEventTapLocation.CGHIDEventTap
     
-    CGEventPost(loc, spcd)
-    CGEventPost(loc, spcu)
+    CGEventPost(loc, pressed)
+    CGEventPost(loc, released)
+}
+
+func command_space(){
+    press_key(0x31, command: true)
 }
 
 func command_left(){
-    let src = CGEventSourceCreate(CGEventSourceStateID.HIDSystemState)
-    
-    let spcd = CGEventCreateKeyboardEvent(src, 0x7B, true)
-    let spcu = CGEventCreateKeyboardEvent(src, 0x7B, false)
-    
-    CGEventSetFlags(spcd, CGEventFlags.MaskCommand)
-    CGEventSetFlags(spcu, CGEventFlags.MaskCommand)
-    
-    
-    let loc = CGEventTapLocation.CGHIDEventTap
-    
-    CGEventPost(loc, spcd)
-    CGEventPost(loc, spcu)
+    press_key(0x7B, command: true)
 }
 
 func command_right(){
-    let src = CGEventSourceCreate(CGEventSourceStateID.HIDSystemState)
-    
-    let spcd = CGEventCreateKeyboardEvent(src, 0x7C, true)
-    let spcu = CGEventCreateKeyboardEvent(src, 0x7C, false)
-    
-    CGEventSetFlags(spcd, CGEventFlags.MaskCommand)
-    CGEventSetFlags(spcu, CGEventFlags.MaskCommand)
-    
-    
-    let loc = CGEventTapLocation.CGHIDEventTap
-    
-    CGEventPost(loc, spcd)
-    CGEventPost(loc, spcu)
+    press_key(0x7C, command: true)
 }
