@@ -25,6 +25,7 @@ func press_key(key: UInt16, command: Bool = false){
     CGEventPost(loc, released)
 }
 
+
 func command_space(){
     press_key(0x31, command: true)
 }
