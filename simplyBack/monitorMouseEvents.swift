@@ -14,9 +14,9 @@ func acquirePrivileges() -> Bool {
         [kAXTrustedCheckOptionPrompt.takeUnretainedValue() as String: true])
     
     if accessEnabled != true {
-        print("Vous devez autoriser à contrôler voutr ordinateur.")
+        NSLog("Vous devez autoriser à contrôler voutr ordinateur.")
     }else{
-        print ("… En attente …")
+        NSLog("… En attente …")
     }
     return accessEnabled == true
 }

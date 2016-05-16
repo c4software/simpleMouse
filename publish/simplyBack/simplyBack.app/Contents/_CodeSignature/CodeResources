@@ -6,11 +6,11 @@
 	<dict>
 		<key>Resources/AppIcon.icns</key>
 		<data>
-		ZLHXNfEB0hMdq4NdYxlIM+sTGbo=
+		PZ2tGi7UgSxhA3y5oDLi6ktkFiA=
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		0g5yohpKJorf1jiOKVQ5vnt79fU=
+		30cnjHJS3zwKg7IOmChc0aYTsYQ=
 		</data>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
 		<dict>
@@ -118,22 +118,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZLHXNfEB0hMdq4NdYxlIM+sTGbo=
+			PZ2tGi7UgSxhA3y5oDLi6ktkFiA=
 			</data>
 			<key>hash2</key>
 			<data>
-			wRl7xnkUXKLM6FsAFV0O8JFFivACoNOWfXBepWO1vko=
+			RA0UvdogtEeO2p+kgG1tCUQBHiQMoXjEgP5eMbkoyTo=
 			</data>
 		</dict>
 		<key>Resources/Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0g5yohpKJorf1jiOKVQ5vnt79fU=
+			30cnjHJS3zwKg7IOmChc0aYTsYQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			QiJWn4l7LQ/RNsN2fnSYixKLyu6o0M4ksqlbNZ/Sn4I=
+			rUEdRAqCCfaersKylFJ2FOZwsk/+VRzvWtlW41GOF2A=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
